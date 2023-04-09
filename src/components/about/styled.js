@@ -2,6 +2,10 @@ import styled from "styled-components";
 
 export const About = styled.section`
     padding: 100px;
+
+    @media screen and (max-width: 700px) {
+        padding: 100px 20px;
+    }
 `
 export const AboutContainer = styled.main`
     width: 1000px;
@@ -34,6 +38,10 @@ export const BoxImage = styled.div`
     background-color: #5b5b5bf3;
     border-radius: 10px;
     flex: 1;
+
+    @media screen and (max-width: 1010px) {
+        display: none;
+    }
 `
 export const Image = styled.img`
     
@@ -41,6 +49,11 @@ export const Image = styled.img`
 export const BoxText = styled.div`
     flex: 2;
     text-align: right;
+
+    @media screen and (max-width: 1010px) {
+        flex: 100%;
+        text-align: center;
+    }
 `
 export const H5 = styled.h5`
     font-size: 20px;
@@ -53,4 +66,8 @@ export const Text = styled.p`
     font-weight: 400;
     line-height: 25px;
     letter-spacing: 2px;
+
+    @media screen and (max-width: 340px) {
+        font-size: 1rem;
+    }
 `

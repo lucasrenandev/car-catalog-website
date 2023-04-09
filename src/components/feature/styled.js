@@ -3,6 +3,10 @@ import styled from "styled-components";
 export const Feature = styled.section`
     padding: 100px;
     background-color: var(--gray);
+
+    @media screen and (max-width: 700px) {
+        padding: 100px 10px;
+    }
 `
 export const FeatureContainer = styled.main`
     width: 1000px;
@@ -29,6 +33,11 @@ export const FeatureBox = styled.div`
     align-items: center;
     gap: 2rem;
     border-radius: 10px;
+
+    @media screen and (max-width: 550px) {
+        padding: 10px;
+        grid-template-columns: repeat(auto-fit, minmax(240px, auto))
+    }
 `
 export const Box = styled.div`
     border: 1px solid var(--gray);
@@ -37,6 +46,12 @@ export const Box = styled.div`
     align-items: center;
     justify-content: center;
     border-radius: 10px;
+
+    @media screen and (max-width: 1010px) {
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
+    }
 `
 export const BoxImage = styled.figure`
     flex: 1;
@@ -48,6 +63,10 @@ export const Image = styled.img`
 `
 export const BoxText = styled.div`
     flex: 2;
+
+    @media screen and (max-width: 1010px) {
+        flex: 1;
+    }
 `
 export const H5 = styled.h5`
     font-size: 18px;

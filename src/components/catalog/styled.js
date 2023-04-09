@@ -2,6 +2,10 @@ import styled from "styled-components";
 
 export const Catalog = styled.section`
     padding: 100px;
+
+    @media screen and (max-width: 700px) {
+        padding: 100px 20px;
+    }   
 `
 export const CatalogContainer = styled.main`
     width: 1000px;
@@ -24,11 +28,20 @@ export const CatalogInput = styled.div`
     background-color: var(--gray);
     padding: 60px;
     border-radius: 10px;
+
+    @media screen and (max-width: 700px) {
+        padding: 60px 30px;
+    }
 `
 export const SearchInput = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+
+    @media screen and (max-width: 700px) {
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
 `
 export const InputText = styled.input`
     display: inline-block;

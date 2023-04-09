@@ -34,9 +34,32 @@ export const Logo = styled.a`
 export const NavList = styled.ul`
     display: flex;
     align-items: center;
+
+    @media screen and (max-width: 700px) {
+        position: absolute;
+        top: -500px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        z-index: 1000;
+        background-color: #000;
+        flex-direction: column;
+        align-items: center;
+        transition: all 0.4s ease;
+        padding: 1.5rem 0;
+
+        &.active {
+            top: 100px;
+        }
+    }
 `
 export const List = styled.li`
     padding: 0 1rem;
+
+    @media screen and (max-width: 700px) {
+        padding: 0;
+        margin-bottom: 2rem;
+    }
 `
 export const LinkNav = styled.a`
     font-size: 1.1rem;
@@ -46,6 +69,11 @@ export const LinkNav = styled.a`
 
     &:hover {
         color: #00000083;
+    }
+
+    @media screen and (max-width: 700px) {
+        display: block;
+        color: #fff;
     }
 `
 export const LoginBtn = styled.a`
@@ -65,6 +93,11 @@ export const LoginBtn = styled.a`
         border: 1px solid transparent;
         color: #fff;
     }
+
+    @media screen and (max-width: 700px) {
+        background-color: #fff;
+        color: var(--blue);
+    }
 `
 export const CarContainer = styled.section`
     background-color: var(--blue);
@@ -75,11 +108,22 @@ export const CarContainer = styled.section`
     align-items: center;
     position: relative;
     box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.104);
+
+    @media screen and (max-width: 1010px) {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 `
 export const CarText = styled.article`
     position: absolute;
     bottom: 150px;
     left: 90px;
+
+    @media screen and (max-width: 1010px) {
+        position: initial;
+        order: 2;
+    }
 `
 export const H1 = styled.h1`
     color: #fff;
@@ -89,6 +133,15 @@ export const H1 = styled.h1`
     text-align: right;
     transform: translateX(-20px);
     transition: 0.4s ease;
+
+    @media screen and (max-width: 1010px) {
+        text-align: center;
+        transform: translateX(0);
+    }
+
+    @media screen and (max-width: 340px) {
+        font-size: 20px;
+    }
 `
 export const Paragraph = styled.p`
     color: #fff;
@@ -99,19 +152,50 @@ export const Paragraph = styled.p`
     text-align: right;
     transform: translateX(-20px);
     transition: 0.4s ease;
+
+    @media screen and (max-width: 1010px) {
+        text-align: center;
+        transform: translateX(0);
+    }
+
+    @media screen and (max-width: 340px) {
+        font-size: 1rem;
+    }
 `
 export const CarImage = styled.figure`
     position: absolute;
     right: 30px;
     bottom: 10px;
+
+    @media screen and (max-width: 1010px) {
+        position: initial;
+    }
 `
 export const Image = styled.img`
     width: 550px;
-    max-width: 100%;
     height: auto;
+
+    @media screen and (max-width: 1010px) {
+        width: 400px;
+        height: auto;
+    }
+
+    @media screen and (max-width: 500px) {
+        width: 280px;
+    }
+
+    @media screen and (max-width: 340px) {
+        width: 200px;
+    }
 `
 export const MenuIcon = styled.div`
     font-size: 30px;
     cursor: pointer;
     display: none;
+
+    @media screen and (max-width: 700px) {
+        display: inline-flex;
+        align-items: center;
+        z-index: 1001;
+    }
 `
