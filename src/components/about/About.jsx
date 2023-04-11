@@ -14,7 +14,7 @@ export default function about() {
 
                 <AboutBox>
                     <BoxImage>
-                        <Image src={aboutImage}></Image>
+                        <Image src={aboutImage} alt="About image"/>
                     </BoxImage>
 
                     <BoxText>

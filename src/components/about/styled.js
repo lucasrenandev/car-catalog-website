@@ -67,7 +67,7 @@ export const Text = styled.p`
     line-height: 25px;
     letter-spacing: 2px;
 
-    @media screen and (max-width: 340px) {
+    @media screen and (max-width: 700px) {
         font-size: 1rem;
     }
 `

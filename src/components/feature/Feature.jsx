@@ -15,7 +15,7 @@ export default function feature() {
                 <FeatureBox>
                     <Box>
                         <BoxImage>
-                            <Image src={featureImage}/>
+                            <Image src={featureImage} alt="Feature image"/>
                         </BoxImage>
 
                         <BoxText>
@@ -26,7 +26,7 @@ export default function feature() {
 
                     <Box>
                         <BoxImage>
-                            <Image src={featureImage}/>
+                            <Image src={featureImage} alt="Feature image"/>
                         </BoxImage>
 
                         <BoxText>
@@ -37,7 +37,7 @@ export default function feature() {
 
                     <Box>
                         <BoxImage>
-                            <Image src={featureImage}/>
+                            <Image src={featureImage} alt="Feature image"/>
                         </BoxImage>
 
                         <BoxText>
@@ -48,7 +48,7 @@ export default function feature() {
 
                     <Box>
                         <BoxImage>
-                            <Image src={featureImage}/>
+                            <Image src={featureImage} alt="Feature image"/>
                         </BoxImage>
 
                         <BoxText>
@@ -59,7 +59,7 @@ export default function feature() {
 
                     <Box>
                         <BoxImage>
-                            <Image src={featureImage}/>
+                            <Image src={featureImage} alt="Feature image"/>
                         </BoxImage>
 
                         <BoxText>
@@ -70,7 +70,7 @@ export default function feature() {
 
                     <Box>
                         <BoxImage>
-                            <Image src={featureImage}/>
+                            <Image src={featureImage} alt="Feature image"/>
                         </BoxImage>
 
                         <BoxText>

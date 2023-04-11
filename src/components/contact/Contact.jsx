@@ -37,8 +37,8 @@ export default function contact() {
 
                     <Nav>
                         <SocialLink>
-                            <List><Link smooth to={'#'}><ListLink><Image src={instaImage}/></ListLink></Link></List>
-                            <List><Link smooth to={'#'}><ListLink><Image src={faceImage}/></ListLink></Link></List>
+                            <List><Link smooth to={'#'}><ListLink><Image src={instaImage} alt="Instagram"/></ListLink></Link></List>
+                            <List><Link smooth to={'#'}><ListLink><Image src={faceImage} alt="Facebook"/></ListLink></Link></List>
                         </SocialLink>
                     </Nav>
                 </Box>

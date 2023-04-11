@@ -57,7 +57,7 @@ export default function header() {
                     </CarText>
 
                     <CarImage>
-                        <Image src={carHeader}/>
+                        <Image src={carHeader} alt="Header image"/>
                     </CarImage>
                 </CarContainer>
             </HeaderContainer>

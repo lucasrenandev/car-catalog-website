@@ -22,63 +22,63 @@ export default function catalog() {
 
                 <CardContainer>
                     <CardBox>
-                        <Image src={carCard}></Image>
+                        <Image src={carCard} alt="Audi Supra TT"/>
                         <H4>Audi Supra TT</H4>
                         <Paragraph>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, nemo!</Paragraph>
                         <WantButton href="#">I want this!</WantButton>
                     </CardBox>
 
                     <CardBox>
-                        <Image src={carCard}></Image>
+                        <Image src={carCard} alt="Audi Supra TT"/>
                         <H4>Audi Supra TT</H4>
                         <Paragraph>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, nemo!</Paragraph>
                         <WantButton href="#">I want this!</WantButton>
                     </CardBox>
 
                     <CardBox>
-                        <Image src={carCard}></Image>
+                        <Image src={carCard} alt="Audi Supra TT"/>
                         <H4>Audi Supra TT</H4>
                         <Paragraph>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, nemo!</Paragraph>
                         <WantButton href="#">I want this!</WantButton>
                     </CardBox>
 
                     <CardBox>
-                        <Image src={carCard}></Image>
+                        <Image src={carCard} alt="Audi Supra TT"/>
                         <H4>Audi Supra TT</H4>
                         <Paragraph>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, nemo!</Paragraph>
                         <WantButton href="#">I want this!</WantButton>
                     </CardBox>
 
                     <CardBox>
-                        <Image src={carCard}></Image>
+                        <Image src={carCard} alt="Audi Supra TT"/>
                         <H4>Audi Supra TT</H4>
                         <Paragraph>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, nemo!</Paragraph>
                         <WantButton href="#">I want this!</WantButton>
                     </CardBox>
 
                     <CardBox>
-                        <Image src={carCard}></Image>
+                        <Image src={carCard} alt="Audi Supra TT"/>
                         <H4>Audi Supra TT</H4>
                         <Paragraph>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, nemo!</Paragraph>
                         <WantButton href="#">I want this!</WantButton>
                     </CardBox>
 
                     <CardBox>
-                        <Image src={carCard}></Image>
+                        <Image src={carCard} alt="Audi Supra TT"/>
                         <H4>Audi Supra TT</H4>
                         <Paragraph>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, nemo!</Paragraph>
                         <WantButton href="#">I want this!</WantButton>
                     </CardBox>
 
                     <CardBox>
-                        <Image src={carCard}></Image>
+                        <Image src={carCard} alt="Audi Supra TT"/>
                         <H4>Audi Supra TT</H4>
                         <Paragraph>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, nemo!</Paragraph>
                         <WantButton href="#">I want this!</WantButton>
                     </CardBox>
 
                     <CardBox>
-                        <Image src={carCard}></Image>
+                        <Image src={carCard} alt="Audi Supra TT"/>
                         <H4>Audi Supra TT</H4>
                         <Paragraph>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, nemo!</Paragraph>
                         <WantButton href="#">I want this!</WantButton>
