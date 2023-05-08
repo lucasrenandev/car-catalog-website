@@ -14,7 +14,7 @@ export default function scrollArrow() {
 
     const hidleScrollUp = () => {
         window.addEventListener("scroll", () => {
-            if(window.scrollY > 200) {
+            if(window.scrollY > 400) {
                 setScrollArrow(true)
             }
             else {
@@ -26,12 +26,12 @@ export default function scrollArrow() {
     useEffect(hidleScrollUp)
 
     return(
-        <div className="arrow">
+        <>
             {scrollArrow && (
                 <ScrollArrow onClick={scrollUp}>
                     <FaArrowUp/>
                 </ScrollArrow>
             )}
-        </div>
+        </>
     )
 }

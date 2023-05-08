@@ -1,6 +1,5 @@
 import { Header, HeaderContainer, Logo, Nav, 
-NavList, List, LinkNav, 
-LoginBtn, CarContainer, CarText,
+NavList, List, LoginBtn, CarContainer, CarText,
 H1, Paragraph, CarImage, Image, MenuIcon} from "./styled";
 import { BiMenu } from "react-icons/bi"
 import { IoClose} from "react-icons/io5"
@@ -9,24 +8,24 @@ import carHeader from "../../assets/car-header.png"
 import { HashLink as Link } from "react-router-hash-link";
 
 export default function header() {
-    const [menuIcon, setMenuIcon] = useState(BiMenu)
+    const [menuIcon, setMenuIcon] = useState(<BiMenu/>)
     const navRef = useRef(null)
 
     const toggleMenu = () => {
         if(navRef.current.classList.contains("active")) {
             navRef.current.classList.remove("active")
-            setMenuIcon(BiMenu)
+            setMenuIcon(<BiMenu/>)
         }
         else {
             navRef.current.classList.add("active")
-            setMenuIcon(IoClose)
+            setMenuIcon(<IoClose/>)
         }
     }
 
     const hidleMenu = () => {
         window.addEventListener("scroll", () => {
             navRef.current.classList.remove("active")
-            setMenuIcon(BiMenu)
+            setMenuIcon(<BiMenu/>)
         })
     }
 
@@ -39,9 +38,9 @@ export default function header() {
                     <Logo href="/">Dev<span>Superior</span></Logo>
 
                     <NavList ref={navRef} onScroll={hidleMenu}>
-                        <List><Link smooth to={'#catalog'}><LinkNav>Catalog</LinkNav></Link></List>
-                        <List><Link smooth to={'#about'}><LinkNav>About</LinkNav></Link></List>
-                        <List><Link smooth to={'#fe'}><LinkNav>Feature</LinkNav></Link></List>
+                        <List><Link className="nav-link" smooth to={'#catalog'}>Catalog</Link></List>
+                        <List><Link className="nav-link" smooth to={'#about'}>About</Link></List>
+                        <List><Link className="nav-link" smooth to={'#fe'}>Featured</Link></List>
                         <LoginBtn href="#">Login</LoginBtn>
                     </NavList>
 

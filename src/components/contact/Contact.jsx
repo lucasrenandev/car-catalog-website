@@ -13,9 +13,9 @@ export default function contact() {
 
                     <Nav>
                         <NavList>
-                            <List><Link smooth to={'#catalog'}><ListLink>Catalog</ListLink></Link></List>
-                            <List><Link smooth to={'#about'}><ListLink>About</ListLink></Link></List>
-                            <List><Link smooth to={'#fe'}><ListLink>Feature</ListLink></Link></List>
+                            <List><ListLink href="#">Catalog</ListLink></List>
+                            <List><ListLink href="#">About</ListLink></List>
+                            <List><ListLink href="#">Feature</ListLink></List>
                         </NavList>
                     </Nav>
                 </Box>
@@ -25,9 +25,9 @@ export default function contact() {
 
                     <Nav>
                         <NavList>
-                            <List><Link smooth to={'#'}><ListLink>Self-Drive</ListLink></Link></List>
-                            <List><Link smooth to={'#'}><ListLink>Chauffer-Driven</ListLink></Link></List>
-                            <List><Link smooth to={"#"}><ListLink>Help</ListLink></Link></List>
+                            <List><ListLink href="#">Self-Drive</ListLink></List>
+                            <List><ListLink href="#">Chauffer-Driven</ListLink></List>
+                            <List><ListLink href="#">Help</ListLink></List>
                         </NavList>
                     </Nav>
                 </Box>
@@ -37,8 +37,8 @@ export default function contact() {
 
                     <Nav>
                         <SocialLink>
-                            <List><Link smooth to={'#'}><ListLink><Image src={instaImage} alt="Instagram"/></ListLink></Link></List>
-                            <List><Link smooth to={'#'}><ListLink><Image src={faceImage} alt="Facebook"/></ListLink></Link></List>
+                            <List><ListLink href="#"><Image src={instaImage} alt="Instagram"/></ListLink></List>
+                            <List><ListLink href="#"><Image src={faceImage} alt="Facebook"/></ListLink></List>
                         </SocialLink>
                     </Nav>
                 </Box>

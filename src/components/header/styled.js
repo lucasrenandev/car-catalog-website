@@ -56,24 +56,25 @@ export const NavList = styled.ul`
 export const List = styled.li`
     padding: 0 1rem;
 
+    .nav-link {
+        font-size: 1.1rem;
+        font-weight: 400;
+        color: var(--blue);
+        transition: all 0.4s ease;
+
+        &:hover {
+            color: #00000083;
+        }
+
+        @media screen and (max-width: 700px) {
+            display: block;
+            color: #fff;
+        }
+    }
+
     @media screen and (max-width: 700px) {
         padding: 0;
         margin-bottom: 2rem;
-    }
-`
-export const LinkNav = styled.a`
-    font-size: 1.1rem;
-    font-weight: 400;
-    color: var(--blue);
-    transition: all 0.4s ease;
-
-    &:hover {
-        color: #00000083;
-    }
-
-    @media screen and (max-width: 700px) {
-        display: block;
-        color: #fff;
     }
 `
 export const LoginBtn = styled.a`

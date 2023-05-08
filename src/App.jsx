@@ -9,7 +9,7 @@ import ScrollArrow from "./components/scrollarrow/ScrollArrow"
 
 export default function App() {
   return (
-    <div className="App">
+    <>
       <GlobalStyles/>
       <Header/>
       <Catalog/>
@@ -18,6 +18,6 @@ export default function App() {
       <Contact/>
       <Footer/>
       <ScrollArrow/>
-    </div>
+    </>
   )
 }
